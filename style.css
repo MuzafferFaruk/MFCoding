@@ -73,7 +73,7 @@ img {
 }
 
 .first-area {
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  background: url("showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
@@ -113,13 +113,10 @@ img {
 } */
 
 .first-area * {
-  z-index: 10; /*içeriği arkaplanın üzerine çıkartır z-index.. */
+  z-index: 10; 
 }
 
-.first-area.blog {
-  background: url("../Images/home/blog.jpg") no-repeat center center/cover;
-  height: 30vh;
-}
+
 
 .icons {
   padding: 30px;
