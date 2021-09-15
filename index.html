@@ -87,20 +87,20 @@
               <div class="column">
                 <div class="column-2 bg-light">
                   <h2>Request Callback</h2>
-                  <form action="/process.php" method="POST" class="callback-f orm">
+                  <form name="contact" action="/process.php" method="POST" class="callback-form" data-netlify="true">
                     <div class="form-control">
                       <label for="name"></label>
                       <input type="text" name="name" id="name" placeholder="Enter Name">                            
                     </div>
                     <div class="form-control">
                       <label for="email"></label>
-                      <input type="email" email="email" id="email" placeholder="Enter Email">                            
+                      <input type="email" name="email" id="email" placeholder="Enter Email">                            
                     </div>
                     <div class="form-control">
                       <label for="phone"></label>
-                      <input type="text" phone="phone" id="phone" placeholder="Enter Phone">                            
+                      <input type="text" name="phone" id="phone" placeholder="Enter Phone">                            
                     </div>
-                    <input type="submit" value="Send" id="submit" class="btn">
+                      <button type="submit" value="Send" id="submit" class="btn"> Send </button>
                   </form>
                 </div>
               </div>
