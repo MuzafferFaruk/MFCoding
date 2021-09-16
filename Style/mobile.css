@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
   
   #navbar{
     flex-direction: column;
