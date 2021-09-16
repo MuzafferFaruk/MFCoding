@@ -345,7 +345,7 @@ main {
   padding: 30px;
   align-items: center;
   text-align: center;
-  max-width: 275px;
+  
   
 }
 
@@ -358,8 +358,8 @@ main {
   margin-bottom: 10px;
 }
 
-.flex-columns p {
-  margin: 20px 0;
+.flex-columns input {
+  max-width: 400px;
 }
 
 /* Section header */
