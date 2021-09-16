@@ -36,6 +36,13 @@ img {
   width: 100%;
 }
 
+#about,
+#biography,
+#contact {
+  max-width: 500px;
+}
+
+
 .navbar {
   display: flex;
   align-items: center;
