@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 768px) {
-  a svg {
+  .github-corner a svg {
     height: 200px;
   }
   .github-corner:hover .octo-arm {
