@@ -73,7 +73,7 @@ main {
   
   background-image: url("../img/profil.jpg");
 
-  
+  object-fit: cover;
   min-height: 500px;
 
   
