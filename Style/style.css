@@ -68,3 +68,17 @@ main {
   background-color: #f4f4f4;
   color: #333;
 }
+
+.parallax {
+  
+  background-image: url("../img/IMG_1424.JPG");
+
+  
+  min-height: 500px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
